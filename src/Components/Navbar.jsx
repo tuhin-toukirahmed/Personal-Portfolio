@@ -37,7 +37,11 @@ const Navbar = () => {
               className="text-xl lg:text-2xl font-bold text-white hover:text-blue-400 transition-colors duration-200 rounded-lg px-2 py-1 cursor-pointer"
               aria-label="Go to home section"
             >
-              Portfolio
+              <img 
+                src="https://i.postimg.cc/MK8m7KBW/rsz-1chatgpt-image-jun-29-2025-04-35-50-pm-removebg-preview.png" 
+                alt="Logo" 
+                className="h-8 w-auto lg:h-10"
+              />
             </button>
           </div>
 
