@@ -84,8 +84,8 @@ const Projects = () => {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
               Featured Projects
             </h2>
-            <div className="w-20 h-1 bg-accent-500 mx-auto mb-6"></div>
-            <p className="text-lg sm:text-xl text-charcoal-300 max-w-2xl mx-auto">
+            <div className="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+             <p className="text-lg sm:text-xl text-charcoal-300 max-w-2xl mx-auto">
               Showcasing my passion for creating innovative web solutions with
               modern technologies
             </p>
@@ -96,6 +96,7 @@ const Projects = () => {
             <h3 className="text-2xl font-bold text-white mb-8 text-center">
               Featured Work
             </h3>
+            
             <div className="grid lg:grid-cols-2 gap-8">
               {featuredOnly.map((project) => (
                 <div

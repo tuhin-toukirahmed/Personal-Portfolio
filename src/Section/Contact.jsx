@@ -99,7 +99,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gray-900 relative">
       <Container>
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           
           {/* Section Header */}
           <div className="text-center mb-16">
