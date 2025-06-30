@@ -115,18 +115,28 @@ const Banner = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a 
-                href="#projects"
+              <button 
+                onClick={() => {
+                  const element = document.getElementById('projects');
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
                 className="px-6 py-3 sm:px-8 sm:py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer text-center"
               >
                 View My Projects
-              </a>
-              <a 
-                href="#contact"
+              </button>
+              <button 
+                onClick={() => {
+                  const element = document.getElementById('contact');
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
                 className="px-6 py-3 sm:px-8 sm:py-4 border-2 border-gray-600 hover:border-blue-500 text-gray-300 hover:text-white font-semibold rounded-lg transition-all duration-200 cursor-pointer text-center"
               >
                 Get In Touch
-              </a>
+              </button>
             </div>
 
             {/* Social Links */}

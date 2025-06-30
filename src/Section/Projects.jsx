@@ -144,7 +144,10 @@ const Projects = () => {
                     <h4 className="text-xl font-bold text-white mb-3 group-hover:text-accent-400 transition-colors">
                       {project.title}
                     </h4>
-                    <p className="text-charcoal-300 leading-relaxed mb-4 line-clamp-3">
+                    <p 
+                      className="text-charcoal-300 leading-relaxed mb-4 line-clamp-3 cursor-help"
+                      title={project.description}
+                    >
                       {project.description}
                     </p>
 
@@ -260,7 +263,10 @@ const Projects = () => {
                     <h4 className="text-lg font-bold text-white mb-2 group-hover:text-accent-400 transition-colors">
                       {project.title}
                     </h4>
-                    <p className="text-charcoal-300 text-sm leading-relaxed mb-4 line-clamp-2">
+                    <p 
+                      className="text-charcoal-300 text-sm leading-relaxed mb-4 line-clamp-2 cursor-help"
+                      title={project.description}
+                    >
                       {project.description}
                     </p>
 

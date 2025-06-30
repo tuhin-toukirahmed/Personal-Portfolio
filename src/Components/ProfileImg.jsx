@@ -12,9 +12,12 @@ const ProfileImg = ({ className = "" }) => {
       {/* Profile Image */}
       <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
         <img 
-          src="https://i.postimg.cc/Zq8HxPCK/photo-2025-06-28-23-05-20-removebg-preview.png"
+          src="https://i.postimg.cc/v8CZ8d8f/photo-2025-06-28-23-05-20-removebg-preview.webp"
           alt="Toukir Tuhin - Frontend Developer"
           className="w-full h-full object-cover object-center"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
         />
       </div>
       
